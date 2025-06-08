@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pagamento Professor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>Pagamento de professor</h2>
+
+  <p>Digite o nivel do professor (1, 2 ou 3):</p>
+  <input type="number" id="nivel"><br>
+
+  <p>Quantidade de aulas por semana:</p>
+  <input type="number" id="aulas"><br>
+
+  <button onclick="calcular()">Calcular</button>
+
+  <p id="resultado"></p>
+
+  <table>
+    <tr>
+      <th>Nivel</th>
+      <th>Valor por hora/aula</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>R$ 12,00</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>R$ 17,00</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>R$ 25,00</td>
+    </tr>
+  </table>
+  <script src="index.js"></script>
+</body>
+</html>
